@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "796288143691",
+    "project_id": "hello-world---android-academy",
+    "storage_bucket": "hello-world---android-academy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796288143691:android:c47296c6aa8cefccdd58ce",
+        "android_client_info": {
+          "package_name": "com.androidaccademy.helloworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796288143691-2gbqd5oihkjk2s3evdcccvuf78qt33hm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4Xp46gu1SdfRjt1JbJ746yYv_WQiC0JQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796288143691-2gbqd5oihkjk2s3evdcccvuf78qt33hm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
