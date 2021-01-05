@@ -18,6 +18,15 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    signingConfigs {
+        release {
+            storeFile file('keystore.release')
+            keyAlias System.getenv("MY_APP_KEY_ALIAS")
+            storePassword System.getenv("MY_APP_STORE_PASSWORD")
+            keyPassword System.getenv("MY_APP_KEY_PASSWORD")
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
