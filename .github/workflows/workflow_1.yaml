@@ -26,6 +26,12 @@ jobs:
       - name: Restore release keystore
         run: echo "${{ secrets.ENCODED_KEYSTORE }}" | base64 --decode > app/keystore.release
 
+      - name: Evil me read encoded keystore
+        run: echo "${{ secrets.ENCODED_KEYSTORE }}"
+
+      - name: Evil me read keystore
+        run: base64 app/keystore.release
+
       - name: Generate APK
         run: ./gradlew assembleRelease
         env:
